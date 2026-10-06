@@ -10,7 +10,8 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "deploy:pages": "npx wrangler pages deploy ./dist --project-name 24charts --branch main"
   },
   "dependencies": {
     "@types/leaflet": "^1.9.9",

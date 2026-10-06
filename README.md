@@ -26,8 +26,9 @@ This is a Vite application configured for Cloudflare Pages.
 - Build command: `npm run build`
 - Build output directory: `dist`
 - Production branch: `main`
+- Deploy command: leave blank when using Cloudflare Pages Git integration
 
-The repository also includes `wrangler.toml`, so the built site can be deployed with Wrangler after authenticating with Cloudflare.
+The repository also includes `wrangler.toml`. For a manual deployment after building, authenticate with Cloudflare and run `npm run deploy:pages`. Do not use `npx wrangler deploy`; that command deploys Workers and is not the Pages deployment command.
 
 ## Contributing
 
