@@ -19,6 +19,16 @@ You can access 24Charts directly here:
 
 - [24Charts](https://charts.awdevsoftware.org/)
 
+## Deploying with Cloudflare Pages
+
+This is a Vite application configured for Cloudflare Pages.
+
+- Build command: `npm run build`
+- Build output directory: `dist`
+- Production branch: `main`
+
+The repository also includes `wrangler.toml`, so the built site can be deployed with Wrangler after authenticating with Cloudflare.
+
 ## Contributing
 
 Contributions are always welcome for charts! Here’s how you can help:
@@ -48,4 +58,3 @@ If you have any questions or suggestions, feel free to reach out!
 - [ChartFox](https://chartfox.org) for the UI inspiration.
 - [@FormicAcidGD](https://github.com/formicacidgd/) for making this project
 - [@awdev1](https://github.com/awdev1/) for making this readme and adding charts
-
